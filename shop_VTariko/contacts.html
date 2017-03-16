@@ -1,66 +1,71 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Магазин LEGO!</title>
-    <link rel="stylesheet" type="text/css" href="content/site.css">
-    <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+	<title>Магазин LEGO!</title>
+	<link rel="stylesheet" type="text/css" href="content/site.css">
+	<link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon">
 </head>
 <div class="container">
-    <header>
-        <div class="content">
-            <div class="logo-main">
-                <img src="content/logo.png" alt="Логотип LEGO">
-            </div>
-            <div class="navbar">
-                <a href="index.html">Главная</a>
-                <a href="catalog.html">Каталог</a>
-                <a href="contacts.html">Контакты</a>
-            </div>
-        </div>
-    </header>
-    <hr>
-    <h2>Напишите нам</h2>
-    <div class="petition">
-        <form action="http://localhost/action_act.php" method="POST" class="petition">
-            <fieldset>
-                <input type="text" id="name" name="name" placeholder="Введите ваше имя.." class="text-petition"/><label
-                    for="name"> Ваше имя</label><br/>
-                <label><input type="email" name="email" placeholder="E-mail" class="text-petition"/> Ваш электронный
-                    адрес</label><br/><br/>
-                <label for="theme-letter">Тема письма</label><br/>
-                <input type="text" id="theme-letter" name="theme-letter" placeholder="Тема обращения"
-                       size="50"/><br/><br/>
-                <label for="description">Обращение (пожалуйста, пишите максимально подробно - так наши менеджеры смогут
-                    оперативнее отреагировать на Ваше обращение)</label><br>
-                <textarea name="description" id="description" rows="20" cols="50"
-                          placeholder="Текст обращения"></textarea><br/>
-                <input type="submit" value="Отправить письмо в LEGO-мир!"/>
-            </fieldset>
-        </form>
-    </div>
-    <div>
-        <h2>Адрес</h2>
-        <p>
-            <b>Контактный номер:</b> 8-800-777-13-13
-        </p>
-        <p>
-            <b>Адрес:</b> Москва, Красная площадь, дом 1
-        </p>
-        <p>
-            <b>E-mail:</b> <i>vv.lego-world.vv@lego.com</i>
-        </p>
-    </div>
-    <div>
-        <h2>Мы на карте</h2>
-        <script type="text/javascript" charset="utf-8" async
-                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=vEat1YQOC_ddTm0UsIAjdizh4JZmHQHD&amp;width=595&amp;height=575&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
-    </div>
-    <footer>
-        <div id="footer">
-            <p><h5>&copy; Все права защищены</h5>
-        </div>
-    </footer>
+	<header>
+		<div class="content">
+			<div class="logo-main">
+				<img src="content/logo.png" alt="Логотип LEGO">
+			</div>
+			<div class="navbar">
+				<a href="index.html">Главная</a>
+				<a href="catalog.html">Каталог</a>
+				<a href="contacts.html">Контакты</a>
+			</div>
+		</div>
+	</header>
+	<hr>
+	<h2>Напишите нам</h2>
+	<div class="petition">
+		<form action="http://localhost/action_act.php" method="POST" class="petition">
+			<fieldset>
+				<input type="text" id="name" name="name" placeholder="Введите ваше имя.." class="text-petition"/><label
+					                                                                                                 for="name"> Ваше имя</label><br/>
+				<label>
+					<input type="email" name="email" placeholder="E-mail" class="text-petition"/> Ваш электронный
+					адрес
+				</label><br/><br/>
+				<label for="theme-letter">Тема письма</label><br/>
+				<input type="text" id="theme-letter" name="theme-letter" placeholder="Тема обращения"
+				       size="50"/><br/><br/>
+				<label for="description">
+					Обращение (пожалуйста, пишите максимально подробно - так наши менеджеры смогут
+					оперативнее отреагировать на Ваше обращение)
+				</label><br>
+				<textarea name="description" id="description" rows="20" cols="50"
+				          placeholder="Текст обращения"></textarea><br/>
+				<input type="submit" value="Отправить письмо в LEGO-мир!"/>
+			</fieldset>
+		</form>
+	</div>
+	<div>
+		<h2>Адрес</h2>
+		<p>
+			<b>Контактный номер:</b> 8-800-777-13-13
+		</p>
+		<p>
+			<b>Адрес:</b> Москва, Красная площадь, дом 1
+		</p>
+		<p>
+			<b>E-mail:</b> <i>vv.lego-world.vv@lego.com</i>
+		</p>
+	</div>
+	<div>
+		<h2>Мы на карте</h2>
+		<script type="text/javascript" charset="utf-8" async
+		        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=vEat1YQOC_ddTm0UsIAjdizh4JZmHQHD&amp;width=595&amp;height=575&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+	</div>
+	<br/><br/>
+	<footer>
+		<div id="footer">
+			<h5>&copy; Все права защищены</h5>
+		</div>
+	</footer>
 </div>
 </body>
 </html>

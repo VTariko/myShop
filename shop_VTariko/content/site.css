@@ -1,177 +1,181 @@
 body {
-    /*background-color: #F8BA0D;*/
-    background-color: #fdee23;
-    /*background-image: url("../items/img/top1.jpg");*/
+	/*background-color: #F8BA0D;*/
+	background-color: #fdee23;
+	/*background-image: url("../items/img/top1.jpg");*/
 }
 
-h1, h2 {
-    text-align: center;
-}
+h1, h2 { text-align: center; }
+
 h3 {
-    color: rgb(48, 8, 110);
-    font-size: 18px;
-    font-weight: 500;
-    /*background-color: rgb(151, 112, 212);*/
-    background-color: #ed2027;
+	color: rgb(48, 8, 110);
+	font-size: 18px;
+	font-weight: 500;
+	/*background-color: rgb(151, 112, 212);*/
+	background-color: #ed2027;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+	width: 80%;
+	margin: 0 auto;
 }
 
 header {
-    line-height: 2em;
-    position: relative;
-    background-color: #ed2027;
+	line-height: 2em;
+	position: relative;
+	background-color: #ed2027;
 }
 
 footer {
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: inherit;
-    background-color: #ed2027;
+	text-align: center;
+	position: fixed;
+	/*bottom: 0;*/
+	width: inherit;
+	background-color: #ed2027;
 }
+
 .content {
-    margin: 0 auto;
-    min-height: 87px;
+	margin: 0 auto;
+	min-height: 87px;
 }
 
 .logo-main {
-    float: left;
-    height: 87px;
+	float: left;
+	height: 87px;
 }
 
 .navbar {
-    line-height: 87px;
-    overflow: hidden;
-    float: right;
-    height: inherit;
-    padding-right: 4rem;
+	line-height: 87px;
+	overflow: hidden;
+	float: right;
+	height: inherit;
+	padding-right: 4rem;
 }
 
 .navbar a {
-    float: left;
-    padding-right: 8px;
-    padding-left: 8px;
-    color: black;
+	float: left;
+	padding-right: 8px;
+	padding-left: 8px;
+	color: black;
 }
 
 .navbar a:hover {
-    /*background-color: rgb(48, 8, 110);*/
-    /*color: rgb(151, 112, 212);*/
-    background-color: rgb(154, 10, 14);
-    color: #ed2027;
+	/*background-color: rgb(48, 8, 110);*/
+	/*color: rgb(151, 112, 212);*/
+	background-color: rgb(154, 10, 14);
+	color: #ed2027;
 }
 
 .navbar-logo {
-    width: 24px;
-    height: 2em;
-    background-image: url("../items/img/icon_nothover_24.png");
-    background-repeat: no-repeat;
-    background-position: center;
+	width: 24px;
+	height: 2em;
+	background-image: url("../items/img/icon_nothover_24.png");
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .navbar-logo:hover {
-    background-image: url("../items/img/icon_hover_red_24.png");
-    background-repeat: no-repeat;
-    background-position: center;
+	background-image: url("../items/img/icon_hover_red_24.png");
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .brief {
-    color: #200772;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 16px;
+	color: #200772;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
 }
 
 .detailed {
-    color: #200772;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
+	color: #200772;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
 }
 
 .list li {
-    color: #200772;
-    list-style-type: none;
-    line-height: 28px;
-    background-image: url("../items/img/square.png");
-    background-repeat: no-repeat;
-    text-indent: 30px;
+	color: #200772;
+	list-style-type: none;
+	line-height: 28px;
+	background-image: url("../items/img/square.png");
+	background-repeat: no-repeat;
+	text-indent: 30px;
 }
 
-.petition input {
-    height: 1.5em;
-}
+.petition input { height: 1.5em; }
 
 .petition input:focus {
-    height: 1.5em;
-    font-size: 1.2em;
+	height: 1.5em;
+	font-size: 1.2em;
 }
 
 .text-petition {
-    width: 20%;
-    color: blue;
+	width: 20%;
+	color: blue;
 }
 
-.petition textarea {
-    text-transform: capitalize;
-}
+.petition textarea { text-transform: capitalize; }
 
 .items p::first-letter {
-    font-size: 2em;
-    color: #202AAc;
+	font-size: 2em;
+	color: #202AAc;
 }
 
-.border-detail {
-    border-style: double;
-    border-color: black;
-    border-width: 5px;
-    /*box-shadow: 0 0 0 5px black;*/
+.one-detail { min-height: 234px; }
+
+.set { min-height: 129px; }
+
+.middle-set { min-height: 160px; }
+
+.very-big-set { min-height: 144px; }
+
+.img-detail {
+	border-style: double;
+	border-color: black;
+	border-width: 5px;
+	float: left;
+	/*box-shadow: 0 0 0 5px black;*/
 }
 
-.border-detail:hover {
-    border-color: transparent;
+.short-description {
+	overflow: hidden;
+	padding-left: 1rem;
 }
 
-.logo {
-    width: 100%;
-}
+.img-detail:hover { border-color: transparent; }
+
+.logo { width: 100%; }
 
 table {
-    border: 1px solid #000;
-    border-collapse: collapse;
+	border: 1px solid #000;
+	border-collapse: collapse;
 }
 
 td {
-    border-color: #000;
-    border-style: solid;
-    border-width: 1px;
-    line-height: 25px;
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	line-height: 25px;
 }
 
 footer div h5 {
-    float: right;
-    padding-right: 1rem;
+	float: right;
+	padding-right: 1rem;
 }
 
 .game-table {
-    width: 80%;
-    height: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+	width: 80%;
+	height: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .game-table thead {
-    color: #202AAc;
-    background-color: rgb(151, 112, 212);
-    line-height: 2em;
+	color: #202AAc;
+	background-color: rgb(151, 112, 212);
+	line-height: 2em;
 }
 
-.game-table tbody td:hover {
-    font-size: 2em;
-}
+.game-table tbody td:hover { font-size: 2em; }
