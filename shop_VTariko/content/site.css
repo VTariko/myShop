@@ -35,9 +35,7 @@ footer {
 	margin-top: 30px;
 }
 
-.footer {
-	margin-top: 30px;
-}
+.footer { margin-top: 30px; }
 
 .all-rights {
 	display: block;
@@ -95,7 +93,7 @@ footer {
 	color: #200772;
 	font-size: 14px;
 	font-style: italic;
-	line-height: 16px;
+	line-height: 2rem;
 }
 
 .detailed {
@@ -155,11 +153,32 @@ footer {
 	padding-left: 1rem;
 }
 
-.short-description h3 {
-	margin-top: 0;
-}
+.short-description h3 { margin-top: 0; }
 
 .img-detail:hover { border-color: transparent; }
+
+.btn-buy {
+	float: right;
+	position: relative;
+	border-radius: 20%;
+	height: 2.5em;
+	width: 8em;
+	background-color: #ed2027;
+	border: 0;
+}
+
+.btn-buy:focus { outline: 0 }
+
+.btn-buy:hover {
+	background-color: rgb(154, 10, 14);
+	color: #ed2027;
+}
+
+.btn-buy:active {
+	background-color: #fdee23;
+	color: black;
+	box-shadow: 0 0 0 2px black;
+}
 
 .logo { width: 100%; }
 
