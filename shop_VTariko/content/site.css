@@ -34,6 +34,7 @@ footer {
 	background-color: #ed2027;
 	line-height: 3em;
 	margin-top: 30px;
+	clear: both;
 }
 
 .footer { margin-top: 30px; }
@@ -64,9 +65,11 @@ footer {
 
 .navbar a {
 	float: left;
-	padding-right: 8px;
-	padding-left: 8px;
+	padding-right: 10px;
+	padding-left: 10px;
 	color: black;
+	font-size: 22px;
+	text-decoration: none;
 }
 
 .navbar a:hover {
@@ -131,6 +134,39 @@ footer {
 .items p::first-letter {
 	font-size: 2em;
 	color: #202AAc;
+}
+
+.catalog-items {
+	text-align: center;
+}
+
+.item {
+	background-color: white;
+	border-radius: 15%;
+	height: 10em;
+	width: 11em;
+	margin: 1em;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.item p {
+	height: 100%;
+}
+
+.item a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	height: 100%;
+}
+
+.item span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
 }
 
 .one-detail { min-height: 234px; }
